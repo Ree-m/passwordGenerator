@@ -1,0 +1,35 @@
+ *{
+    box-sizing: border-box;
+}
+body{
+    background-color: #3C3E98;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ .box{
+    background-color: #23235B;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    color: aliceblue;
+    box-shadow: rgba(206, 206, 211, 0.808) 0px 0px 16px;
+    margin-left: 340px;
+
+} 
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+} 
+
+ .btn{
+
+} 
+
