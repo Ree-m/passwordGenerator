@@ -57,6 +57,11 @@ function App() {
         <h1>Password Generator</h1>
         <div className="passwordContainer">
          <span className="password">{password}</span>
+         <button onClick={() => {
+         navigator.clipboard.writeText(password);}}>
+        Copy
+       </button>
+         
         </div>
         
 
